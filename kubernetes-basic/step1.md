@@ -7,9 +7,9 @@
 
 Change to server directory `cd node-server`{{execute}}
 
-Run node server locally `node server.js`{{execute}}
+Run node server locally `node server.js`{{execute T2}}
 
-Curl local server `curl localhost:3000`{{execute}}
+Curl local server `curl localhost:3000`{{execute T1}}
 
 Open in [new tab](https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/)
 
