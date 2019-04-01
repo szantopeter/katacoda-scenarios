@@ -5,12 +5,11 @@
     "assets": {
       "host01": [
         {"file": "node-server/Dockerfile", "target": "~/node-server/"},
-        {"file": "node-server/server.js", "target": "~/node-server/"}
+        {"file": "node-server/server.js", "target": "~/node-server/"},
+        {"file": "courseBase.sh", "target": "~/"}
       ]
     },
-    "files": [
-      "node-server/server.js"
-    ],
+
     "steps": [
       {
         "title": "Step 1",

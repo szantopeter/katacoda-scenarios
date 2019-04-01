@@ -6,5 +6,7 @@
 ### Build and run server
 
 Change to server directory `cd node-server`{{execute}}
+
 Run node server locally `node server.js`{{execute}}
+
 Build docker image `docker build -t exampledriven/node-server .`{{execute}}
