@@ -2,6 +2,15 @@
   "title": "Kubernetes Basic Walkthrough",
   "description": "Demonstrate microservices and kubernetes through a basic node.js based service",
   "details": {
+    "assets": {
+      "host01": [
+        {"file": "node-server/Dockerfile", "target": "~/node-server/Dockerfile"},
+        {"file": "node-server/server.js", "target": "~/node-server/server.js"}
+      ]
+    },
+    "files": [
+      "node-server/server.js"
+    ],
     "steps": [
       {
         "title": "Step 1",
