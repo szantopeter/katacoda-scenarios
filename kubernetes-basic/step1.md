@@ -9,4 +9,8 @@ Change to server directory `cd node-server`{{execute}}
 
 Run node server locally `node server.js`{{execute}}
 
+Curl local server `curl localhost:3000`{{execute}}
+
+Open in [new tab](https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/)
+
 Build docker image `docker build -t exampledriven/node-server .`{{execute}}

@@ -1,6 +1,4 @@
 #!/bin/bash
 
-echo "done" >> /root/katacoda-finished
-
-apt-get update >> /root/2
-apt install nodejs-legacy >> /root/3
+apt-get update >> apt-update.log
+apt install -y nodejs-legacy >> apt-install.log

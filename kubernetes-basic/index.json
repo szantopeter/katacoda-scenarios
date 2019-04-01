@@ -4,12 +4,20 @@
   "details": {
     "assets": {
       "host01": [
-        {"file": "node-server/Dockerfile", "target": "~/node-server/"},
-        {"file": "node-server/server.js", "target": "~/node-server/"},
-        {"file": "courseBase.sh", "target": "~/"}
+        {
+          "file": "node-server/Dockerfile",
+          "target": "~/node-server/"
+        },
+        {
+          "file": "node-server/server.js",
+          "target": "~/node-server/"
+        },
+        {
+          "file": "courseBase.sh",
+          "target": "~/"
+        }
       ]
     },
-
     "steps": [
       {
         "title": "Step 1",
@@ -33,7 +41,14 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Node server",
+        "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
+      }
+    ]
   },
   "backend": {
     "imageid": "kubernetes"
