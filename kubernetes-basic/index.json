@@ -36,16 +36,10 @@
     "uilayout": "editor-terminal",
     "icon" : "fa-kubernetes",
     "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Node server",
-        "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"
-      }
-    ],
     "terminals": [
       {"name": "Local server", "target": "host01"},
       {"name": "Docker server", "target": "host01"},
-      {"name": "Docker Stats", "command": "docker stats", "target": "host01"}
+      {"name": "Curl", "target": "host01"}
     ]
   },
   "backend": {
