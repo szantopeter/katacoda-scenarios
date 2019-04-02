@@ -1,5 +1,3 @@
-### Run server using docker
-
 Change to server directory `cd node-server`{{execute T3}}
 
 Build docker image `docker build -t exampledriven/node-server .`{{execute T3}}
