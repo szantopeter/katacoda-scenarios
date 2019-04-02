@@ -38,8 +38,7 @@
     "showdashboard": true,
     "terminals": [
       {"name": "Local server", "target": "host01"},
-      {"name": "Docker server", "target": "host01"},
-      {"name": "Curl", "target": "host01"}
+      {"name": "Docker server", "target": "host01"}
     ]
   },
   "backend": {
