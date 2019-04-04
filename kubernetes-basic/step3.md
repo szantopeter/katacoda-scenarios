@@ -6,11 +6,11 @@ the above single command created the following
 - Service : an internal kubernetes load balancer and a DNS entry named node-server pointing to the load balancer
 - Replica sets : controls and maintains the desired amount of server instances
 
-To query all this run  `kubectl scale deployment.apps/node-server --replicas=2`{{execute T1}}
+To query all this run  `kubectl get all`{{execute T1}}
 
 To create two node server instances  `kubectl scale deployment.apps/node-server --replicas=2`{{execute T1}}
 
-See the changes `kubectl scale deployment.apps/node-server --replicas=2`{{execute T1}}
+See the changes `kubectl get all`{{execute T1}}
 
 Connect to the server `curl localhost:8080`{{execute T1}}
 
