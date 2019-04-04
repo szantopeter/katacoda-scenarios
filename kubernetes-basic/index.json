@@ -33,7 +33,7 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
+    "uilayout": "terminal",
     "icon" : "fa-kubernetes",
 
     "showvisualise": true,
