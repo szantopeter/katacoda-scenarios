@@ -31,6 +31,10 @@
       {
         "title": "Run nodejs server in kubernetes",
         "text": "step3.md"
+      },
+      {
+        "title": "Accessing services in kubernetes",
+        "text": "step4.md"
       }
     ],
     "intro": {
@@ -43,22 +47,13 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-iframe",
+    "uilayout": "terminal",
     "icon": "fa-kubernetes",
     "showvisualise": true,
     "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.9.1 --probe.docker=true",
     "scopePort": 4040,
     "showdashboard": true,
-    "dashboards": [
-      {
-        "name": "Port 30000",
-        "port": 30000
-      },
-      {
-        "name": "Port 30001",
-        "port": 30001
-      }
-    ],
+
     "terminals": [
       {
         "name": "Local server",
