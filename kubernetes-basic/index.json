@@ -4,9 +4,19 @@
   "details": {
     "assets": {
       "host01": [
-        {"file": "node-server/Dockerfile", "target": "~/node-server/"},
-        {"file": "node-server/server.js", "target": "~/node-server/"},
-        {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        {
+          "file": "node-server/Dockerfile",
+          "target": "~/node-server/"
+        },
+        {
+          "file": "node-server/server.js",
+          "target": "~/node-server/"
+        },
+        {
+          "file": "wait.sh",
+          "target": "/usr/local/bin/",
+          "chmod": "+x"
+        }
       ]
     },
     "steps": [
@@ -34,16 +44,30 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "icon" : "fa-kubernetes",
-
+    "icon": "fa-kubernetes",
     "showvisualise": true,
     "scope": "docker run --name=scope -d --net=host --pid=host --privileged -v /var/run/docker.sock:/var/run/docker.sock:rw weaveworks/scope:1.9.1 --probe.docker=true",
     "scopePort": 4040,
-
     "showdashboard": true,
+    "dashboards": [
+      {
+        "name": "Port 30000",
+        "port": 30000
+      },
+      {
+        "name": "Port 30001",
+        "port": 30001
+      }
+    ],
     "terminals": [
-      {"name": "Local server", "target": "host01"},
-      {"name": "Docker server", "target": "host01"}
+      {
+        "name": "Local server",
+        "target": "host01"
+      },
+      {
+        "name": "Docker server",
+        "target": "host01"
+      }
     ]
   },
   "backend": {
