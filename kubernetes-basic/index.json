@@ -33,7 +33,7 @@
         "text": "step3.md"
       },
       {
-        "title": "Accessing services in kubernetes",
+        "title": "Microservices calling each other in Kubernetes",
         "text": "step4.md"
       }
     ],
