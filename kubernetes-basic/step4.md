@@ -1,3 +1,9 @@
+### Architecture of the micro services created in this tutorial 
+
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1_4zt303ui6_0TpxQwMu08XfvqN0XpPvU"></iframe>
+
+### Steps
+
 In this step we will build a client application calling the server using the internal DNS entry node-server. The client application is also a server so we can call it.
 
 Change to client directory `cd /root/node-client`{{execute T1}}

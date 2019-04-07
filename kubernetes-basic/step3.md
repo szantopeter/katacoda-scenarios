@@ -1,3 +1,9 @@
+### Architecture, created in this step
+
+<iframe frameborder="0" style="width:100%;height:600px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1IJn2H4j1qf3V8clRv0MUUfitdC3Js6GL"></iframe>
+
+### Steps
+
 Run server in kubernetes `kubectl run node-server --port=3000 --image=exampledriven/node-server:v1`{{execute T1}}
 
 the above single command created the following 
