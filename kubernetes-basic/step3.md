@@ -26,7 +26,7 @@ To create more node server instances  `kubectl scale deployment.apps/node-server
 
 See the changes `kubectl get all`{{execute T1}}
 
-Connect to the server and see load balancing `watch curl $masterip:$serviceport`{{execute T1}}
+Observe load balancing in action `watch curl $masterip:$serviceport`{{execute T1}}
 
 
 

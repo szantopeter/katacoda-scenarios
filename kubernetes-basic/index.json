@@ -5,6 +5,14 @@
     "assets": {
       "host01": [
         {
+          "file": "node-client/Dockerfile",
+          "target": "~/node-client/"
+        },
+        {
+          "file": "node-client/server.js",
+          "target": "~/node-client/"
+        },
+        {
           "file": "node-server/Dockerfile",
           "target": "~/node-server/"
         },
