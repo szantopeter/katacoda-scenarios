@@ -1,6 +1,8 @@
 {
-  "title": "Kubernetes Basic Walkthrough",
-  "description": "Demonstrate microservices and kubernetes through a basic node.js based service",
+  "title": "Build Microservices with Docker and Kubernetes in 30 minutes",
+  "description": "Builds microservces from scratch using Docker NodeJS and Kubernetes.",
+  "difficulty": "beginner-internediate",
+  "time": "20-30 minutes",
   "details": {
     "assets": {
       "host01": [
