@@ -14,4 +14,6 @@ Store kubernetes ip address in a variable `masterip=$(kubectl cluster-info | gre
 
 Store service port into variable `clientserviceport=$(kubectl get service | grep node-client | grep -o "[0-9]\{5\}")`{{execute T1}}
 
-Observe load balancing in action `watch curl $masterip:clientserviceport`{{execute T1}}
+See all objects created in Kubernetes `kubectl get all`{{execute T1}}
+
+Observe load balancing in action `watch curl $masterip:$clientserviceport`{{execute T1}}
