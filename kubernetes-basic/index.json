@@ -9,7 +9,7 @@
           "target": "~/node-client/"
         },
         {
-          "file": "node-client/server.js",
+          "file": "node-client/client.js",
           "target": "~/node-client/"
         },
         {
