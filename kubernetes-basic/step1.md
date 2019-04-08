@@ -1,6 +1,6 @@
 ### Architecture, created in this step
 
-<iframe frameborder="0" style="width:100%;height:300px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1usAP7yyG7BdeFPwc499wsokO9dqfEdT1"></iframe>
+<iframe frameborder="0" style="width:100%;height:400px;" src="https://www.draw.io/?lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1#G1usAP7yyG7BdeFPwc499wsokO9dqfEdT1"></iframe>
 
 ### Credits
 
