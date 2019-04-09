@@ -17,4 +17,6 @@ Run node server locally `node server.js`{{execute T2}}
 
 Curl local server `curl localhost:3000`{{execute T1}}
 
+Check hostname `hostname`{{execute T1}}
+
 Or open in [browser](https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/)

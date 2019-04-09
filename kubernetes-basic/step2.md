@@ -24,6 +24,8 @@ See running docker containers `docker ps`{{execute T1}}
 
 Log into container `docker exec -it node-server /bin/bash`{{execute T1}}
 
+Check hostname `hostname`{{execute T1}}
+
 Look around inside the container `ls -l`{{execute T1}}
 
 See what is running `top`{{execute T1}}
