@@ -7,7 +7,7 @@ show_progress()
   local spinstr='\|/-'
   local temp
 
-  printf "Installing Node.js\n\n"
+  printf "Installing Node.js"
   while true; do 
     sudo grep -i "done" /root/katacoda-background-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
@@ -22,7 +22,7 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Configured"
+  echo "Done"
 }
 
 show_progress

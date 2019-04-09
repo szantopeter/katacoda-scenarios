@@ -18,7 +18,7 @@ Look at the deployment descriptor `less example.yml`{{execute T1}}
 
 Create objects described in the deployment descriptor `kubectl apply -f example.yml`{{execute T1}}
 
-Check state`watch kubectl get all`{{execute T1}}
+Check state `watch kubectl get all`{{execute T1}}
 
 ### Deploy
 
@@ -30,6 +30,6 @@ Observe load balancing in action `watch curl $masterip:$clientserviceport`{{exec
 
 ## Undeploy
 
-Check state`kubectl delete -f example.yml`{{execute T1}}
+Delete all objects `kubectl delete -f example.yml`{{execute T1}}
 
-Check state`watch kubectl get all`{{execute T1}}
+Check state `watch kubectl get all`{{execute T1}}
