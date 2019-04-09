@@ -23,16 +23,15 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: node-service
+  name: node-server
   labels:
-    app: node-service
+    app: node-server
 spec:
   ports:
     - port: 3000
       protocol: TCP
   selector:
     app: node-server
-  type: NodePort
 
 ---
 
@@ -51,7 +50,7 @@ spec:
         app: node-client
     spec:
       containers:
-        - name: node-server
+        - name: node-client
           image: exampledriven/node-client:v1
           imagePullPolicy: Never
           ports:
@@ -61,7 +60,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: node-client-service
+  name: node-client
   labels:
     app: node-client
 spec:
@@ -69,5 +68,5 @@ spec:
     - port: 3000
       protocol: TCP
   selector:
-    app: node-server
+    app: node-client
   type: NodePort
