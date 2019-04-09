@@ -8,6 +8,8 @@ In this step we will build a client application calling the server using the int
 
 Delete the service of node-server. We want to keep it internally accessible only `kubectl delete service/node-server`{{execute T1}}
 
+Re-create node-server service without exposing the port. We want to keep the service internally accessible only `kubectl expose deployment node-server --name=node-server`{{execute T1}}
+
 Change to client directory `cd /root/node-client`{{execute T1}}
 
 Build docker image `docker build -t exampledriven/node-client:v1 .`{{execute T1}}

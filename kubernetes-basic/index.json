@@ -26,6 +26,10 @@
           "file": "wait.sh",
           "target": "/usr/local/bin/",
           "chmod": "+x"
+        },
+        {
+          "file": "example.yml",
+          "target": "~"
         }
       ]
     },
@@ -43,8 +47,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Microservices calling each other in Kubernetes",
+        "title": "Microservices in Kubernetes",
         "text": "step4.md"
+      },
+      {
+        "title": "Kubernetes deployment descriptors",
+        "text": "step5.md"
       }
     ],
     "intro": {
