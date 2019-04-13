@@ -20,8 +20,6 @@ Create objects described in the deployment descriptor `kubectl apply -f example.
 
 Check state `watch kubectl get all`{{execute T1}}
 
-### Deploy
-
 Store kubernetes ip address in a variable `masterip=$(kubectl cluster-info | grep master | grep -o "[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}\.[0-9]\{1,3\}")`{{execute T1}}
 
 Store service port into variable `clientserviceport=$(kubectl get service | grep node-client | grep -o "[0-9]\{5\}")`{{execute T1}}
