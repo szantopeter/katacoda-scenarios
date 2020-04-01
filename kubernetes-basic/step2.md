@@ -14,9 +14,9 @@ See the Dockerfile of the parent image in  [GitHub](https://github.com/nodejs/do
 
 Build docker image `docker build -t exampledriven/node-server:v1 .`{{execute T3}}
 
-Create docker container and start server `docker run -p 3001:3000 --rm --name node-server exampledriven/node-server:v1`{{execute T3}}
+Observe the freshly built docker image `docker images | grep node-server`{{execute T3}}
 
-Observe the freshly built docker image `docker images | grep node-server`
+Create docker container and start server `docker run -p 3001:3000 --rm --name node-server exampledriven/node-server:v1`{{execute T3}}
 
 See running containers `docker ps | grep node-server`{{execute T1}}
 
