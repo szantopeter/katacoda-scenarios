@@ -32,7 +32,7 @@ See container logs `docker logs node-server`{{execute T1}}
 
 See running docker containers `docker ps`{{execute T1}}
 
-Log into container `docker exec -it node-server /bin/bash`{{execute T1}}
+Log into container `docker exec -it node-server /bin/sh`{{execute T1}}
 
 Check hostname `hostname`{{execute T1}}
 
