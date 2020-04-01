@@ -10,7 +10,7 @@ View Dockerfile `cat Dockerfile`{{execute T3}}
 
 See the parent image in [docker hub](https://hub.docker.com/layers/node/library/node/13.12.0-alpine3.11/images/sha256-c8b4c2938b54a8a457c601dd5cf10e2890d1f750d24fdafde78df067a9a1a6b8?context=explore)
 
-See the Dockerfile of the parent image in  [GitHub](https://github.com/nodejs/docker-node/blob/b4117f9333da4138b03a546ec926ef50a31506c3/13/buster/Dockerfile)
+See the Dockerfile of the parent image in  [GitHub](https://github.com/nodejs/docker-node/blob/b4117f9333da4138b03a546ec926ef50a31506c3/13/alpine3.10/Dockerfile)
 
 Build docker image `docker build -t exampledriven/node-server:v1 .`{{execute T3}}
 
