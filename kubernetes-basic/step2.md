@@ -6,6 +6,8 @@
 
 Change to server directory `cd node-server`{{execute T3}}
 
+View Dockerfile `cat Dockerfile`{{execute T3}}
+
 Build docker image `docker build -t exampledriven/node-server:v1 .`{{execute T3}}
 
 Create docker container and start server `docker run -p 3001:3000 --rm --name node-server exampledriven/node-server:v1`{{execute T3}}
@@ -13,6 +15,8 @@ Create docker container and start server `docker run -p 3001:3000 --rm --name no
 See running containers `docker ps`{{execute T1}}
 
 Curl docker server `curl localhost:3001`{{execute T1}}
+
+Curl local server `curl localhost:3000`{{execute T1}}
 
 Or open in [browser](https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/)
 
